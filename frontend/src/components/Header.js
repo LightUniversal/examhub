@@ -33,8 +33,8 @@ function Header() {
   };
 
   return (
-    <header className=" bg-white  fixed w-full top-0 header border-b border-slate-200">
-      <div className=" flex header   justify-between items-center mx-auto  bg-white py-2 px-4">
+    <header className=" bg-slate-200  fixed w-full top-0 header border-b border-slate-200">
+      <div className=" flex header   justify-between items-center mx-auto  bg-slate-100 py-2 px-4">
         <div className="logo  py-0">
           <Link
             to="/"

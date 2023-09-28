@@ -305,7 +305,7 @@ const Body = () => {
               {/* Post */}
               {data.map((post) => (
                 <div
-                  className="posts  shadow-lg px-4 py-5 my-4 rounded-md "
+                  className="posts bg-slate-100  shadow-lg px-4 py-5 my-4 rounded-md "
                   key={post._id}
                 >
                   <div className="uppersection border bg-slate-200 border-slate-100 flex justify-between items-center shadow-sm shadow-slate-100 py-4 px-3 rounded-lg">

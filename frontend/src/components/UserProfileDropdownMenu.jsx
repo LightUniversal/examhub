@@ -36,7 +36,7 @@ const UserProfileDropdownMenu = () => {
             </Link>
           </li> */}
           <li className=" shadow-sm p-3 " onClick={logoutHandler}>
-            <Link to="/logout" className="flex items-center  text-slate-800">
+            <Link to="#" className="flex items-center  text-slate-800">
               Logout <FaSignOutAlt className=" text-slate-800 mx-2" />
             </Link>
           </li>

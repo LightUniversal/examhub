@@ -76,7 +76,7 @@ const RegisterScreen = () => {
   return (
     <div>
       <Form
-        className=" text-white w-11/12 mx-auto border border-slate-200 rounded-md shadow-md px-4 py-3"
+        className=" text-white w-11/12 mx-auto bg-slate-200 border border-slate-100 rounded-md shadow-md px-4 py-3"
         onSubmit={
           submitHandler
         }
